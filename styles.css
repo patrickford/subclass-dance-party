@@ -1,6 +1,9 @@
 body, html{
   height:100%;
+  font-family:"verdana", sans-serif;
+  font-size:10px;
 }
+
 body{
   margin: 0;
   background-color:black;
@@ -13,6 +16,7 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -26,4 +30,11 @@ body, a:link, a:visited, a:active{
   border-color: white;
   border-radius: 30px;
   position:absolute;
+}
+
+.pbj{
+  height:30px;
+  width:30px;
+  position:absolute;
+  background-image: url("./src/banana_small.gif");
 }
