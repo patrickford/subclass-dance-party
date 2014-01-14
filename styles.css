@@ -2,7 +2,9 @@ body, html{
   height:100%;
   font-family:"verdana", sans-serif;
   font-size:10px;
-  background-image: url("./src/background.jpg")
+  background-image: url("./src/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #000;
 }
 
 body{
@@ -37,11 +39,8 @@ body, a:link, a:visited, a:active{
 .pbj{
   height:200px;
   width:200px;
-  border:0px;
+  border:0;
   position:absolute;
   background-image: url("./src/banana_medium.gif");
   background-repeat: no-repeat;
-}
-.pbjTime{
-  
 }
