@@ -2,7 +2,7 @@ body, html{
   height:100%;
 }
 body{
-  margin: 0px;
+  margin: 0;
   background-color:black;
   font-size: 18px;
 }
@@ -21,8 +21,9 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border: 10px solid;
+  border: 30px;
+  border-style: solid;
   border-color: white;
-  border-radius:10px;
+  border-radius: 30px;
   position:absolute;
 }
