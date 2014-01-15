@@ -32,7 +32,8 @@ Dancer.prototype.hover = function(){
 
 Dancer.prototype.explode = function(){
   this.$node.click(function(){
-    $('.dancer').effect("explode");
+    $('.dancer').effect('explode');
+    $('span').removeClass('dancer pbj')
     window.dancers = [];
   });
 };
