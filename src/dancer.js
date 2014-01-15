@@ -6,7 +6,7 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.step();
   window.dancers.push(this);
   this.hover();
-  this.explode(this);
+  this.explode();
 };
 
 Dancer.prototype.step = function(){
@@ -32,6 +32,7 @@ Dancer.prototype.hover = function(){
 
 Dancer.prototype.explode = function(){
   this.$node.click(function(){
-    $('.dancer').effect("bounce");
+    $('.dancer').effect("explode");
+    window.dancers = [];
   });
 };

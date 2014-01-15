@@ -21,8 +21,6 @@ PulsingDancer.prototype.sizeChange = function(){
       this.$node.css(randomBorderSize);
       console.log(randomMaxSize, randomMinSize, randomInterval, i);
     }
-
   };
   setInterval(borderGrow.bind(this), randomInterval);
-
 };

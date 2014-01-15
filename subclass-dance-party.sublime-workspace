@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"thro",
+				"throwOptions"
+			],
+			[
+				"throw",
+				"throwSequence"
+			],
+			[
+				"time",
+				"timeBetweenSteps"
+			],
+			[
+				"make",
+				"makeBlinkyDancer"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"stringif",
+				"stringifyJSON"
+			],
+			[
+				"te",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dancefloor.html",
+			"settings":
+			{
+				"buffer_size": 3282,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/patrickford/2014-01-toy-problems/rockPaperScissors/rockPaperScissors.js",
+		"/Users/patrickford/2014-01-toy-problems/README.md",
+		"/Users/patrickford/2014-01-toy-problems/rockPaperScissors/RPS.html",
+		"/Users/patrickford/2014-01-subclass-dance-party/dancefloor.html",
+		"/Users/patrickford/2014-01-data-structures/sprint-one/src/pseudoclassical/stack.js",
+		"/Users/patrickford/2014-01-subclass-dance-party/src/dancer.js",
+		"/Users/patrickford/2014-01-subclass-dance-party/styles.css",
+		"/Users/patrickford/2014-01-data-structures/sprint-one/src/functional/stack.js",
+		"/Users/patrickford/2014-01-subclass-dance-party/spec/blinkyDancerSpec.js",
+		"/Users/patrickford/2014-01-subclass-dance-party/src/blinkyDancer.js",
+		"/Users/patrickford/2014-01-subclass-dance-party/src/boxyDancer.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/README.md",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-hash-table/ds-hash-table.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-hash-table/README.md",
+		"/Users/patrickford/2014-01-self-assessments-week-01/underbar-reduceright/README.md",
+		"/Users/patrickford/2014-01-self-assessments-week-01/underbar-reduceright/underbar-reduceright.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/js-array-extensions/js-array-extensions.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/js-array-extensions/README.md",
+		"/Users/patrickford/2014-01-data-structures/sprint-one/src/functional-shared/stack.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-stack-queue-diff/stack-queue-diff.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-stack-queue-diff/README.md",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-stack/ds-stack.js",
+		"/Users/patrickford/2014-01-self-assessments-week-01/ds-stack/README.md",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/graph.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-one/spec/specs.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/spec/graphSpec.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/binarySearchTree.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/set.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/linkedList.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/hashTable.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/hashTableHelpers.js",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/SpecRunner.html",
+		"/Users/patrickford/2014-01-data-structures/sprint-two/src/tree.js",
+		"/Users/patrickford/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/patrickford/2014-01-data-structures/sprint-one/src/functional/queue.js",
+		"/Users/patrickford/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/patrickford/2014-01-underbar/src/underbar.js",
+		"/Users/patrickford/2014-01-recursion/src/getElementsByClassName.js",
+		"/Users/patrickford/2014-01-recursion/spec/getElementsByClassNameSpec.js",
+		"/Users/patrickford/2014-01-recursion/src/stringifyJSON.js",
+		"/Users/patrickford/2014-01-recursion/spec/stringifyJSONSpec.js",
+		"/Users/patrickford/2014-01-twittler/index.html",
+		"/Users/patrickford/2014-01-twittler/css/twittler.css",
+		"/Users/patrickford/2014-01-twittler/js/twittler.js",
+		"/Users/patrickford/2014-01-twittler/js/data_generator.js",
+		"/Users/patrickford/Downloads/starter-kit-1.2.0/js/app.js",
+		"/Users/patrickford/2014-01-twittler/js/jquery.timeago.js",
+		"/Users/patrickford/2014-01-recursion/spec/fixtures.js",
+		"/Users/patrickford/2014-01-recursion/SpecRunner.html",
+		"/Users/patrickford/PatChat.html",
+		"/Users/patrickford/Ghost/ghost-0.3.3/README.md",
+		"/Users/patrickford/2014-01-twittler/js/jquery.js",
+		"/Users/patrickford/2014-01-twittler/data_generator.js",
+		"/Users/patrickford/patrickford/index.html",
+		"/Users/patrickford/Woofr/index.html",
+		"/Users/patrickford/Woofr/css/woofr.css",
+		"/Users/patrickford/2014-01-underbar/spec/underbarSpec.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutApplyingWhatWeHaveLearnt.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutHigherOrderFunctions.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutInheritance.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutMutability.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutObjects.js",
+		"/Users/patrickford/2014-01-javascript-koans/KoansRunner.html",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutFunctions.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutArrays.js",
+		"/Users/patrickford/2014-01-javascript-koans/koans/AboutExpects.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	",
+			"	\n",
+			"};\n",
+			"stringify",
+			"zoom",
+			"mocha",
+			"_.select"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"woofr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dancefloor.html",
+					"settings":
+					{
+						"buffer_size": 3282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
