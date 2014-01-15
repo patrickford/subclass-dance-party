@@ -10,7 +10,7 @@ RainbowDancer.prototype.step = function(){
 };
 
 RainbowDancer.prototype.colorize = function(){
-  var color = ['red', 'yellow', 'blue', 'green', 'orange', 'purple', 'white'];
+  var color = ['red','orange','yellow','green','blue','purple'];
   var randomColor = color[Math.floor(Math.random() * color.length)];
   var randomBorderColor = {
     'border-color' : randomColor

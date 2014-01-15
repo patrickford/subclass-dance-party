@@ -22,11 +22,11 @@ Dancer.prototype.setPosition = function(top, left){
 };
 
 Dancer.prototype.hover = function(){
-  var colors = ['red', 'blue', 'purple', 'orange', 'green', 'yellow', 'white'];
+  var colors = ['red','orange','yellow','green','blue','purple'];
   this.$node.mouseover(function(){
-    $('.dancer').css({'border-color' : 'red' });
-  }).mouseout(function(){
-    $('.dancer').css({'border-color' : colors[Math.floor(Math.random() * colors.length)]});
+    $('.dancer').css({'border-color' : 'red' }).mouseout(function(){
+      $('.dancer').css({'border-color' : colors[Math.floor(Math.random() * colors.length)]});
+    });
   });
 };
 
