@@ -7,7 +7,6 @@ RainbowDancer.prototype = Object.create(Dancer.prototype);
 
 RainbowDancer.prototype.step = function(){
   Dancer.prototype.step.call(this);
-//  this.$node.toggle(1000);
 };
 
 RainbowDancer.prototype.colorize = function(){

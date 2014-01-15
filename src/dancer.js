@@ -4,9 +4,9 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.setPosition(top, left);
   this.timeBetweenSteps = timeBetweenSteps;
   this.step();
-  window.dancers.push(this);
   this.hover();
   this.explode();
+  window.dancers.push(this);
 };
 
 Dancer.prototype.step = function(){
