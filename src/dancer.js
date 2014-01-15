@@ -31,9 +31,11 @@ Dancer.prototype.hover = function(){
 };
 
 Dancer.prototype.explode = function(){
+  var removeSpanClass = function () {
+    $('span').remove();
+  }
   this.$node.click(function(){
-    $('.dancer').effect('explode');
-    $('span').removeClass('dancer pbj')
+    $('.dancer').effect('explode', null, null, removeSpanClass);
     window.dancers = [];
   });
 };
