@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
+    <script src="lib/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
     <script src="src/rainbowDancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
     <script src="src/pulsingDancer.js"></script>
@@ -15,8 +16,8 @@
     <div class="topbar">
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">Blinky Dancer</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="RainbowDancer">Rainbow Dancer</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="PulsingDancer">Pulsing Dancer</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="PeanutButterJellyDancer"></a>
+<!--       <a href="#" class="addDancerButton" data-dancer-maker-function-name="PulsingDancer">Pulsing Dancer</a>
+ -->      <a href="#" class="addDancerButton" data-dancer-maker-function-name="PeanutButterJellyDancer"></a>
       <a href="#" class="lineUp">LINE UP</a>
     </div>
     <div class="pbjTime"></div>
@@ -42,7 +43,6 @@
 
         $(".addDancerButton").on("click", function(event){
           var dancerMakerFunctionName = $(this).data("dancer-maker-function-name");
-          console.log()
 
           // get the maker function for the kind of dancer we're supposed to make
           var dancerMakerFunction = window[dancerMakerFunctionName];
@@ -54,18 +54,19 @@
               Math.random() * 1000
             );
             setInterval(pbjTime, 500);
-            // clearInterval =
           } else { var dancer = new dancerMakerFunction(
               $("body").height() * Math.random(),
               $("body").width() * Math.random(),
               Math.random() * 1000
           );}
 
-
+          // $('body').on("click", function(){
+          //     $(this).closest('.dancer').effect("explode");
+          //     console.log("here", $(this).closest('.dancer'))
+          // });
           // console.log(window.dancers, dancer, dancer.$node, dancer.top, dancer.left)
           $('body').append(dancer.$node);
         });
-
         $(".lineUp").on("click", function(event){
           var newLeft = 10;
             for(var i = 0; i < window.dancers.length; i++){

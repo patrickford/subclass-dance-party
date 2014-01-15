@@ -6,7 +6,8 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.timeBetweenSteps = timeBetweenSteps;
   this.step();
   window.dancers.push(this);
-
+  this.hover();
+  this.explode(this);
 };
 
 Dancer.prototype.step = function(){
@@ -25,3 +26,26 @@ Dancer.prototype.setPosition = function(top, left){
   };
   this.$node.css(styleSettings);
 };
+
+Dancer.prototype.hover = function(){
+  var colors = ['red', 'blue', 'purple', 'orange', 'green', 'yellow', 'white'];
+  this.$node.mouseover(function(){
+    $('.dancer').css({'border-color' : 'red' });
+  }).mouseout(function(){
+    $('.dancer').css({'border-color' : colors[Math.floor(Math.random() * colors.length)]});
+  });
+};
+
+Dancer.prototype.explode = function(){
+  this.$node.click(function(){
+  $('.dancer').effect("bounce");
+  // $(obj).click(function(){
+  //   $(obj).effect("explode");
+  //   console.log(obj);
+  });
+};
+// Dancer.prototype.explode = function(){
+//   this.$node.on('click', function(){
+//     $(this).closest('.dancer').toggle("bounce");
+//   });
+// };

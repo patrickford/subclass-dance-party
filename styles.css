@@ -1,7 +1,7 @@
 body, html{
-  height:100%;
-  font-family:"verdana", sans-serif;
-  font-size:10px;
+  height: 100%;
+  font-family: "verdana", sans-serif;
+  font-size: 10px;
   background-image: url("./src/background.jpg");
   background-repeat: no-repeat;
   background-color: #000;
@@ -9,7 +9,7 @@ body, html{
 
 body{
   margin: 0;
-  background-color:black;
+  background-color: black;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -24,8 +24,6 @@ body, a:link, a:visited, a:active{
 
 .topbar{
   height:32px;
-}
-.title{
 }
 
 .dancer{
