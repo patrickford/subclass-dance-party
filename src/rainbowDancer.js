@@ -1,7 +1,6 @@
 var RainbowDancer = function(top, left, timeBetweenSteps){
   Dancer.call(this, top, left, timeBetweenSteps);
   this.colorize();
-
 };
 
 RainbowDancer.prototype = Object.create(Dancer.prototype);
